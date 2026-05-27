@@ -1,10 +1,11 @@
-export function Logo({ className = "" }: { className?: string }) {
+import logo from "@/assets/logo.png";
+
+export function Logo({ className = "", invert = false }: { className?: string; invert?: boolean }) {
   return (
-    <span className={`serif text-xl tracking-tight ${className}`}>
-      <span className="italic">V</span>isionwrk
-      <span className="ml-1 align-super text-[8px] tracking-[0.3em] not-italic" style={{ fontFamily: "var(--font-mono)" }}>
-        ®
-      </span>
-    </span>
+    <img
+      src={logo}
+      alt="Visonwrk"
+      className={`h-7 w-auto md:h-8 ${invert ? "invert" : ""} ${className}`}
+    />
   );
 }
