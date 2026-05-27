@@ -3,7 +3,7 @@ import { Reveal } from "./Reveal";
 
 export function Founder() {
   return (
-    <section id="founder" className="relative bg-[var(--color-bone)] py-32 md:py-48">
+    <section id="founder" className="relative bg-card py-32 md:py-48">
       <div className="mx-auto grid max-w-7xl gap-16 px-6 md:grid-cols-12 md:px-10">
         <Reveal className="md:col-span-5">
           <div className="relative aspect-[4/5] w-full overflow-hidden bg-foreground">
