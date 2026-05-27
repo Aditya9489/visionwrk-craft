@@ -57,11 +57,12 @@
 }
 
 :root {
-  /* Monochrome luxury palette — black canvas */
+  /* Black canvas. Ink = deepest black, bone = warm off-white (kept for
+     legibility on the dark sections that paint white text). */
   --background: oklch(0.08 0 0);
   --foreground: oklch(0.97 0 0);
-  --ink: oklch(0.05 0 0);
-  --bone: oklch(0.13 0 0);
+  --ink: oklch(0.04 0 0);
+  --bone: oklch(0.97 0.003 80);
   --ash: oklch(0.6 0 0);
 
   --card: oklch(0.11 0 0);
