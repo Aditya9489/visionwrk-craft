@@ -13,7 +13,7 @@ export function Founder() {
               width={896}
               height={1120}
               loading="lazy"
-              className="h-full w-full object-cover grayscale"
+              className="h-full w-full object-cover object-center grayscale contrast-110"
             />
             <div className="absolute bottom-6 left-6 text-white">
               <p className="font-mono text-[10px] tracking-[0.3em] uppercase opacity-70">
