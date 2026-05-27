@@ -20,7 +20,7 @@ const quotes = [
 
 export function Testimonials() {
   return (
-    <section className="relative bg-[var(--color-bone)] py-32 md:py-48">
+    <section className="relative bg-card py-32 md:py-48">
       <div className="mx-auto max-w-7xl px-6 md:px-10">
         <Reveal>
           <div className="flex items-end justify-between">
@@ -39,7 +39,7 @@ export function Testimonials() {
         <div className="mt-16 grid gap-px bg-border md:grid-cols-3">
           {quotes.map((q, i) => (
             <Reveal key={q.n} delay={i * 120}>
-              <figure className="flex h-full flex-col justify-between bg-[var(--color-bone)] p-10">
+              <figure className="flex h-full flex-col justify-between bg-card p-10">
                 <blockquote className="font-serif text-2xl leading-[1.25] tracking-[-0.01em]">
                   &ldquo;{q.q}&rdquo;
                 </blockquote>

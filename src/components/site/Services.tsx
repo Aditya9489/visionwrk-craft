@@ -53,7 +53,7 @@ export function Services() {
           <div className="md:col-span-8 space-y-px bg-border">
             {services.map((s, i) => (
               <Reveal key={s.no} delay={i * 120}>
-                <article className="group relative bg-background p-8 md:p-12 transition-colors hover:bg-[var(--color-bone)]">
+                <article className="group relative bg-background p-8 md:p-12 transition-colors hover:bg-white/[0.03]">
                   <div className="flex items-baseline justify-between gap-6">
                     <p className="font-mono text-[11px] tracking-[0.22em] text-muted-foreground">
                       / {s.no}

@@ -48,7 +48,7 @@ export function Pricing() {
         <div className="mt-16 grid gap-px bg-border md:grid-cols-2">
           {tiers.map((t, i) => (
             <Reveal key={t.name} delay={i * 120}>
-              <div className="group flex h-full flex-col justify-between bg-background p-10 md:p-12 transition-colors hover:bg-[var(--color-bone)]">
+              <div className="group flex h-full flex-col justify-between bg-background p-10 md:p-12 transition-colors hover:bg-white/[0.03]">
                 <div>
                   <p className="font-mono text-[11px] tracking-[0.22em] text-muted-foreground">
                     {t.tag}

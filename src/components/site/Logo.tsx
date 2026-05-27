@@ -1,11 +1,8 @@
-import logo from "@/assets/logo.png";
-
-export function Logo({ className = "", invert = false }: { className?: string; invert?: boolean }) {
+export function Logo({ className = "" }: { className?: string; invert?: boolean }) {
   return (
-    <img
-      src={logo}
-      alt="Visonwrk"
-      className={`h-7 w-auto md:h-8 ${invert ? "invert" : ""} ${className}`}
-    />
+    <span className={`serif text-xl md:text-2xl tracking-tight ${className}`}>
+      <span className="font-medium">Vison</span>
+      <span className="italic font-light">wrk.</span>
+    </span>
   );
 }
