@@ -38,7 +38,7 @@ export function Pricing() {
               </h2>
             </div>
             <p className="max-w-md text-sm text-muted-foreground">
-              Visionwrk is currently in its early growth phase. All clients receive
+              Visonwrk is currently in its early growth phase. All clients receive
               a <span className="text-foreground">two-week free trial</span> period on
               both services.
             </p>

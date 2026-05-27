@@ -16,7 +16,7 @@ export function Hero() {
       <div className="relative z-10 mx-auto flex min-h-screen max-w-7xl flex-col justify-between px-6 pb-16 pt-32 md:px-10 md:pt-40">
         <div>
           <Reveal>
-            <p className="eyebrow text-white/60">— Visionwrk · AI Automation Studio</p>
+            <p className="eyebrow text-white/60">— Visonwrk · AI Automation Studio</p>
           </Reveal>
 
           <Reveal delay={150}>

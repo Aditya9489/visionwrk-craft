@@ -16,7 +16,7 @@ export function FinalCTA() {
         </Reveal>
         <Reveal delay={350}>
           <a
-            href="mailto:hello@visionwrk.com"
+            href="mailto:hello@visonwrk.com"
             className="mt-16 inline-flex items-center gap-4 bg-white px-9 py-5 text-[11px] uppercase tracking-[0.24em] text-black hover:bg-white/90 transition-colors"
           >
             Schedule a Consultation

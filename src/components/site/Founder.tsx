@@ -9,7 +9,7 @@ export function Founder() {
           <div className="relative aspect-[4/5] w-full overflow-hidden bg-foreground">
             <img
               src={founder}
-              alt="Adi, founder of Visionwrk"
+              alt="Adi, founder of Visonwrk"
               width={896}
               height={1120}
               loading="lazy"
@@ -17,7 +17,7 @@ export function Founder() {
             />
             <div className="absolute bottom-6 left-6 text-white">
               <p className="font-mono text-[10px] tracking-[0.3em] uppercase opacity-70">
-                Founder · Visionwrk
+                Founder · Visonwrk
               </p>
               <p className="mt-1 font-serif text-2xl">Adi</p>
             </div>

@@ -3,7 +3,7 @@ import { Logo } from "./Logo";
 
 const links = [
   { href: "#services", label: "Services" },
-  { href: "#why", label: "Why Visionwrk" },
+  { href: "#why", label: "Why Visonwrk" },
   { href: "#pricing", label: "Pricing" },
   { href: "#founder", label: "Founder" },
   { href: "#process", label: "Process" },
@@ -25,7 +25,7 @@ export function Nav() {
       }`}
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6 md:px-10">
-        <a href="#top"><Logo /></a>
+        <a href="#top" aria-label="Visonwrk home"><Logo /></a>
         <nav className="hidden md:flex items-center gap-10">
           {links.map((l) => (
             <a

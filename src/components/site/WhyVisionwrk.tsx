@@ -9,13 +9,13 @@ const pillars = [
   { t: "Minimal complexity", d: "You operate it on day one without a manual." },
 ];
 
-export function WhyVisionwrk() {
+export function WhyVisonwrk() {
   return (
     <section id="why" className="relative bg-[var(--color-ink)] py-32 text-[var(--color-bone)] md:py-48 grain">
       <div className="mx-auto max-w-7xl px-6 md:px-10">
         <div className="grid gap-16 md:grid-cols-12">
           <Reveal className="md:col-span-5">
-            <p className="eyebrow text-white/45">— Why Visionwrk</p>
+            <p className="eyebrow text-white/45">— Why Visonwrk</p>
             <h2 className="mt-6 font-serif text-4xl leading-[1.05] md:text-6xl">
               A quieter way to <span className="italic">build</span> the modern company.
             </h2>
