@@ -6,7 +6,7 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-16 md:px-10">
         <div className="grid gap-12 md:grid-cols-12">
           <div className="md:col-span-5">
-            <Logo className="text-white" />
+            <Logo invert />
             <p className="mt-6 max-w-sm text-sm text-white/55">
               A studio building quiet, custom AI automation systems for modern
               businesses.
